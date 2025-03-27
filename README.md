@@ -12,11 +12,11 @@ Seja bem-vindo(a)! Este desafio foi projetado para avaliar a sua capacidade téc
 Você deverá desenvolver uma interface moderna de chat com IA que atenda aos seguintes requisitos:
 - Input e Output em Texto e/ou Áudio
 - Permitir que o usuário envie mensagens de texto
-- Compatibilidade com Streaming de Texto vindos de LLMs
-- A aplicação deve ser capaz de exibir o texto da resposta à medida que ele é recebido (streaming);
+- Compatibilidade com Streaming de Texto vindos de LLMs (mockup)
+- O conteúdo das respostas / mensagens pode conter texto, imagem, json, tabelas, etc. (componentizável)
+- A aplicação deve ser capaz de exibir o texto da resposta à medida que ele é recebido (streaming)
 - Modularidade: A aplicação deve ser estruturada de forma modular, permitindo adicionar novas funcionalidades ou substituir componentes com facilidade (por exemplo, trocar o serviço de geração de áudio ou o provedor de LLM).
-- Desenvolvida em React: Pode ser qualquer versão do React (incluindo frameworks como Next.js ou Remix, se desejar);
-- A organização do código (pasta de componentes, serviços, contextos, hooks, etc.) será levada em consideração.
+- Desenvolvida em React: Pode ser qualquer versão do React (incluindo frameworks como Next.js ou Remix, se desejar)
 > **Observações:**
 > - Você pode simular ou mockar o streaming de dados de uma LLM caso não seja viável integrar com um serviço real ou API externa. O importante é demonstrar como você organizaria o fluxo de dados e o consumo assíncrono (streaming ou não).
 > - A aparência da interface fica a seu critério, mas valorizamos boas práticas de UI/UX.
