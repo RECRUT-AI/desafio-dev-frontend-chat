@@ -1,0 +1,30 @@
+.agent-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(234, 153, 169);
+  border-radius: 50%;
+}
+.agent-avatar.speaking {
+  animation: ease-in speaking 2s infinite;
+}
+.agent-avatar svg {
+  font-size: 96px;
+}
+
+@keyframes speaking {
+  0% {
+    box-shadow: 0px 0px 0px rgba(247, 54, 93, 0.8);
+  }
+  50% {
+    box-shadow: 0px 0px 0 32px rgba(247, 54, 93, 0);
+  }
+  80% {
+    box-shadow: 0px 0px 0px rgba(247, 54, 93, 0.8);
+  }
+  100% {
+    box-shadow: 0px 0px 0 32px rgba(247, 54, 93, 0);
+  }
+}
